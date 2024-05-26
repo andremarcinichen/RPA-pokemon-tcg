@@ -14,6 +14,11 @@ def escrita_rapida(texto):
         print (letra, end='')
         sleep(0.01)
 
+def escrita_rapida_sem_print(texto):
+    for letra in texto:
+        print (letra, end='')
+        sleep(0.01)
+
 def aguarda_input(texto):
     print('')
-    return input(texto)
+    return input(texto+'\n')
