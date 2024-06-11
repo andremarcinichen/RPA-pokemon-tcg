@@ -2,3 +2,4 @@ build/*
 dist/*
 iniciar.spec
 *.pyc
+*.env
