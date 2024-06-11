@@ -3,6 +3,7 @@ texto = 'Bem vindo!!, desculpe interface no futuro será uma melhor! Carregando 
 print(texto)
 from funcoes.escrita import escrita_rapida,aguarda_input,escrita_rapida_sem_print
 from funcoes.geral import gera_print
+from chromedriver.chromedriver import Chromedriver
 from telegram.telegram import Telegram
 from time import sleep
 import pandas as pd
@@ -26,10 +27,15 @@ class Inicializacao:
         texto = 'Vamos começar preenchendo alguns dados para facilitar o processo!'
         escrita_rapida(texto)
         dado =aguarda_input('teste?')
+
         print('ah entao é assim... vou fechar programa')
         sleep(20)
 
     def valida_pasta_excel():
+        pass
+
+
+    def inicia_portal():
         pass
 
 
